@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Noto+Serif+Display:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap');
+:root{
+    --primary-color:#1e2058;
+    --secondary-color:#59bdc8;
+    --off-white:#f9f1f1;
+
+}
+
+*{
+    
+    box-sizing: border-box;
+}
+.nav-all{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem 0.1rem 1rem;
+    color: var(--secondary-color);
+}
+.nav-text{
+    font-weight: bolder;
+    color: var(--secondary-dark);
+}
+ ul{
+    text-align: right;
+}
+.active{
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+}
+
+.list-non-bullet{
+    color: var(--secondary-color);
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family:'Noto Sans Display', sans-serif ;
+    
+}
+
+button{
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+input{
+    border-radius: 0.5rem;
+    border:solid var(--secondary-color);
+    padding: 0.5rem;
+    width: 60%;
+}
+  
+  .output {
+    font-size: x-large;
+    margin: 1rem;
+  }
+  
+
